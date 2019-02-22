@@ -2,7 +2,7 @@
   "name": "boot",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aman29271.github.io/react-app/public",
+  "homepage": "https://aman29271.github.io/react-app",
   "dependencies": {
     "bootstrap": "^3.4.1",
     "gh-pages": "^2.0.1",
