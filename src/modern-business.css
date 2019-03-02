@@ -1,0 +1,157 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.carousel-item {
+    height: 92vh; /*580px*/
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 100px;
+}
+
+.card-img-top{
+	height: 200px;
+}
+
+footer p a {
+	color:white ;
+	text-decoration:none;
+	transition:0.3s;
+}
+
+footer p a:hover{
+	text-decoration:none;
+	color:#8097A0;
+}
+.arya{
+	width:80%;
+	margin:0 auto;
+	margin-bottom:40px;
+	text-align:justify;
+	border:1px solid #DADADA;
+	background-color:#F5F5F5;
+	padding:20px;
+	font-size:105%;
+
+}
+
+.center{
+	text-align:center;
+}
+
+.my-4{
+	text-align:center;
+
+}
+
+.card-header{
+	text-align:center;
+}
+
+.cardtext{
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:0px;
+}
+
+.cardtext a{
+	transition:0.3s;
+	font-size:110%;
+	color:gray;
+}
+
+.cardtext a:hover{
+	color:navy;
+}
+
+.cardimgtop{
+	height:350px;
+	width:350px;
+}
+
+.space{
+	width:100%;
+	padding-top:70px;
+}
+
+.cardimgtop2{
+	height:428px;
+	width:308px;
+}
+
+.justify{
+	text-align:justify;
+}
+
+
+
+.cardimgtopworkshop{
+	width:100%;
+}
+
+
+.bground{
+	background: rgba(0, 0, 0, 0.5);
+	width:60%;
+	margin:20px auto;
+	padding:4px;
+	color:#FF9C00;
+	color:white;
+}
+
+.card-text{
+	text-align:justify;
+}
+.cal{
+	font-size:130%;
+	font-weight: bold;
+}
+
+#calendar{
+	width:18%;
+}
+
+blink{
+	text-decoration:blink;
+	font-color:red;
+	font-size:70%;
+	-webkit-animation:blink 0.5s linear infinite;
+	-moz-animation:blink 0.5s linear infinite;
+	animation:blink 0.5s linear infinite;
+}
+
+@-webkit-keyframes blink{
+	0%{opacity:1;}
+	50%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@-moz-keyframes blink{
+	0%{opacity:1;}
+	50%{opacity:0;}
+	100%{opacity:1;}
+}
+@keyframes blink{
+	0%{opacity:1;}
+	50%{opacity:0;}
+	100%{opacity:1;}
+}

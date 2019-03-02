@@ -5,3 +5,9 @@
 .media .media-body{
     text-align: left;
 }
+.navbar-light .navbar-nav .nav-link{
+    color:#007bff !important;
+}
+a:hover{
+    text-decoration: none !important;
+}
