@@ -20,7 +20,7 @@ class App extends Component {
       <div className="App">
       
         <NavbarFixedTop/>
-        <header>
+        <header style={{marginTop:'50px'}}>
           <Container>
             <Route exact path="/" component={Home}></Route>
             <Route path="/about" component={About}></Route>
@@ -140,10 +140,7 @@ class About extends Component{
     return(
       <div>
       <h1 className="mt-4 mb-3">About ACE</h1>
-      <Breadcrumb>
-        <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-        <Breadcrumb.Item active>About</Breadcrumb.Item>
-      </Breadcrumb>
+      <Breadcrumbdup name="About" />
       <Row>
         <Col lg={6}>
         <img className="img-fluid rounded mb-4" src={logodesc} />
@@ -160,50 +157,72 @@ class About extends Component{
       </div>)
   }
 }
+class Breadcrumbdup extends Component{
+  render(){
+    return(
+      <Breadcrumb>
+        <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+        <Breadcrumb.Item active>{this.props.name}</Breadcrumb.Item>
+      </Breadcrumb>
+    )}
+}
 class Event extends Component{
   render(){
     return(
+      <React.Fragment>
+      <Breadcrumbdup name="Event"/>
 <div>This is an Event Page.</div>
+</React.Fragment>
     )
   }
 }
 class Workshop extends Component{
   render(){
     return(
+      <React.Fragment>
+        <Breadcrumbdup name="Workshop"/>
       <div>This ia a Workshop Page.</div>
-
+      </React.Fragment>
     )
   }
 }
 class Guest_lecture extends Component{
   render(){
     return(
+      <React.Fragment>
+        <Breadcrumbdup name="Guest Lecture"/>
       <div>This is a Guest Lecture Page.</div>
-
+      </React.Fragment>
     )
   }
 }
 class Team extends Component{
   render(){
     return(
+      <React.Fragment>
+        <Breadcrumbdup name="Team"/>
       <div>This is a Team Page.</div>
-
+      </React.Fragment>
     )
   }
 }
 class Contact extends Component{
   render(){
     return(
+      <React.Fragment>
+        <Breadcrumbdup name="Contact"/>
     <div>This is an Contact Us page.</div>
-
+    </React.Fragment>
     )
   }
 }
 class Magazine extends Component{
   render(){
     return(
+      <React.Fragment>
+        <Breadcrumbdup name="Magazine"/>
       <div>This is a magazine page.</div>
-
+      </React.Fragment>
     )
   }
 }
@@ -211,8 +230,10 @@ class Magazine extends Component{
 class Gallery extends Component{
   render(){
     return(
+      <React.Fragment>
+        <Breadcrumbdup name="Gallery"/>
       <div>This is a gellry page.</div>
-
+      </React.Fragment>
     )
   }
 }
