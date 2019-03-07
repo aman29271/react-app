@@ -266,7 +266,7 @@ class NavbarFixedTop extends Component{
   render(){
     return(
     <Navbar fixed="top" bg="light" expand="lg">
-      <Container>
+        <Container>
         <Navbar.Brand><Link to="/">
         <img src={logo} height="50" width="50" alt="" /> Association of Civil Engineers, IIT Patna
         </Link>
@@ -289,7 +289,7 @@ class NavbarFixedTop extends Component{
           <Nav.Link><Link to="/contact">Contact</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+        </Container>
     </Navbar>)
   }
 }
